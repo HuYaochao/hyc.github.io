@@ -1,8 +1,8 @@
 name: "Nonsense's blog"
 description: "小胡说的博客"
 
-avatar: https://hyc.github.io/images/tx.jpg
-favicon: https://hyc.github.io/images/favicon.ico
+avatar: https://github.com/HuYaochao/hyc.github.io/images/tx.jpg
+favicon: https://github.com/HuYaochao/hyc.github.io/images/favicon.ico
 
 navigation:
   - name: 首页
@@ -27,7 +27,7 @@ footer-links:
 
 footer-text: Copyright (c) 2024 Pianfan
 
-url: https://hyc.github.io
+url: https://github.com/HuYaochao/hyc.github.io
 
 permalink: /:title/
 paginate_path: /page:num/
