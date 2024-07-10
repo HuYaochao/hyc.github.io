@@ -1,8 +1,8 @@
 name: "Nonsense's blog"
 description: "小胡说的博客"
 
-avatar: https://pianfan.github.io/images/tx.jpg
-favicon: https://pianfan.github.io/images/favicon.ico
+avatar: https://hyc.github.io/images/tx.jpg
+favicon: https://hyc.github.io/images/favicon.ico
 
 navigation:
   - name: 首页
@@ -20,7 +20,7 @@ footer-links:
   zhihu: 
   email: hyc98211@outlook.com
   facebook:
-  github: pianfan
+  github: HuYaochao
   rss: # just type anything here for a working RSS icon
   twitter: 
   youtube:
