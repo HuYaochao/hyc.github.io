@@ -1,7 +1,7 @@
 name: "Nonsense's blog"
 description: "小胡说的博客"
 
-avatar: https://pianfan.github.io/images/avatar.png
+avatar: https://pianfan.github.io/images/tx.jpg
 favicon: https://pianfan.github.io/images/favicon.ico
 
 navigation:
@@ -18,7 +18,7 @@ excerpt_separator: <!-- more -->
 
 footer-links:
   zhihu: 
-  email: xiongyunhan@outlook.com
+  email: hyc98211@outlook.com
   facebook:
   github: pianfan
   rss: # just type anything here for a working RSS icon
@@ -27,7 +27,7 @@ footer-links:
 
 footer-text: Copyright (c) 2024 Pianfan
 
-url: https://pianfan.github.io
+url: https://hyc.github.io
 
 permalink: /:title/
 paginate_path: /page:num/
