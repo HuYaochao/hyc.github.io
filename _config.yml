@@ -1,7 +1,7 @@
 name: "Nonsense's blog"
 description: "小胡说的博客"
 
-avatar: https://github.com/HuYaochao/hyc.github.io/blob/main/images/tx.jpg
+avatar:  https://raw.githubusercontent.com/HuYaochao/hyc.github.io/main/images/tx.jpg
 favicon: https://hyc.github.io/images/favicon.ico
 
 navigation:
