@@ -1,3 +1,11 @@
+---
+layout: post
+title: "前端框架小测试"
+date:   2024-1-27
+tags: [node,ajax,axios]
+comments: true
+author: hyc
+---
 # 前端框架小测
 
 ## node指令
