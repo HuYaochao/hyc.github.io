@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "前端框架小测试"
+title: "W-node,ajax,axios"
 date:   2024-1-27
 tags: [node,ajax,axios]
 comments: true
 author: hyc
 ---
-# 前端框架小测
+# node,ajax,axios
 
 ## node指令
 

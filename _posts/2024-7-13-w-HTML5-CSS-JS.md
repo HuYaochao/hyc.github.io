@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "前端基础小测试"
+title: "W-HTML5-CSS-JS"
 date: 2024-1-27
-tags: [front-end-test]
+tags: [HTML5,CSS,JS]
 comments: true
 author: hyc
 ---
@@ -1381,11 +1381,48 @@ JavaScript 中的数学对象提供了数学相关的常量和方法。
 
 除了上述几种常见的内置对象外，JavaScript 还有其他一些内置对象，如正则表达式对象（RegExp）、错误对象（Error）、Promise 对象等，它们分别提供了处理正则表达式、错误处理和异步编程的方法和功能。
 
----
-
-## 写出 Js 获取元素的五种方式及其作用？
-
 ## 请简要描述一下什么是事件冒泡，它是如何执行的，如何利用 JS 取消事件冒泡机制。
+
+事件冒泡是指在 DOM 中，当一个事件发生时，它会从最具体的元素（事件目标）开始，然后逐级向上冒泡到较不具体的元素，直到根元素（通常是 `document` 对象）。这种机制允许开发者在较高层次的元素上监听事件，而无需在每个具体元素上单独监听。
+
+### 如何执行事件冒泡
+
+1. **事件触发**: 事件从事件目标（最具体的元素）开始触发。
+2. **事件捕获**: 事件向上冒泡，逐级传递到其父元素、祖先元素，直到 `document` 对象。
+3. **事件处理**: 事件在每一级元素上触发相关的事件处理程序（event handlers）。
+
+### 示例
+
+假设你有以下 HTML 结构：
+
+```html
+<div id="parent">
+  <button id="child">Click Me</button>
+</div>
+```
+
+如果你为 `parent` 和 `child` 元素都设置了点击事件处理程序，点击 `button` 时，事件会先在 `button` 上触发，然后冒泡到 `div`，最后到达 `document`。
+
+### 取消事件冒泡
+
+在 JavaScript 中，可以使用 `event.stopPropagation()` 方法来取消事件的冒泡行为。这会阻止事件继续向上冒泡到父元素或 `document` 对象。
+
+### 示例代码
+
+```javascript
+document.getElementById('parent').addEventListener('click', function() {
+  console.log('Parent clicked');
+});
+
+document.getElementById('child').addEventListener('click', function(event) {
+  console.log('Child clicked');
+  event.stopPropagation(); // 阻止事件冒泡
+});
+```
+
+在上面的代码中，点击 `button` 时，控制台将只输出 `'Child clicked'`，因为 `event.stopPropagation()` 阻止了事件冒泡到 `div` 上。
+
+通过这种方式，开发者可以控制事件的传播行为，确保事件处理只在所需的层级上进行。
 
 ## 结果
 
