@@ -2,7 +2,7 @@
 layout: post
 title: "W-VueRouter"
 date: 2024-7-29
-tags: [vue3]
+tags: [vue3,router]
 comments: true
 author: hyc
 ---

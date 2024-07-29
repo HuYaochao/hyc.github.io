@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "W-node-ajax-axios"
+title: "W-Node-ajax-axios"
 date: 2024-7-14
 tags: [node,ajax,axios]
 comments: true
