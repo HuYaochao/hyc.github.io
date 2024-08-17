@@ -1,17 +1,10 @@
 ---
-
 layout: post
-
 title: "W-Java-MySQL"
-
 date: 2024-8-17
-
 tags: [java,MySQL]
-
 comments: true
-
 author: hyc
-
 ---
 
 
@@ -261,3 +254,4 @@ HAVING AVG(salary) > 50000;  -- 对聚合结果进行过滤
 
 # SQL练习
 
+自行
