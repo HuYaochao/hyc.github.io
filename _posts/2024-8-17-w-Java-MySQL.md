@@ -48,7 +48,7 @@ author: hyc
 
  [W-Java – Nonsense's blog (huyaochao.github.io)](https://huyaochao.github.io/hyc.github.io/w-JavaBasic/) 
 
-# java中什么是插箱和装箱
+# java中什么是拆箱和装箱
 
 在 Java 中，**装箱（Boxing）** 和 **拆箱（Unboxing）** 是自动将基本数据类型与它们对应的包装类之间相互转换的过程。这些机制简化了基本数据类型和对象之间的操作，使得 Java 编程更加灵活。
 
